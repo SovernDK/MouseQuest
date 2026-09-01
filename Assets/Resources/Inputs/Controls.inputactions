@@ -1,0 +1,34 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "af3194c4-f019-4799-87cd-3821b45f00ef",
+            "actions": [
+                {
+                    "name": "ToogleInventory",
+                    "type": "Button",
+                    "id": "e5abf9e9-2786-494c-92f5-fb5db6d8f853",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "baa42cd2-2929-4ee8-b597-3ab286e55088",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToogleInventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

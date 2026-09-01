@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5548579e4c37e8e41a18fc96b9fd397b, type: 3}
+  m_Name: _Grassland
+  m_EditorClassIdentifier: 
+  Tiles:
+  - _group: _Grassland
+    _tileID: -1404074270
+    Default: {fileID: 6121940853526209454, guid: db0525f7a69352340b909a204f9b49d2,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Road
+    Rules: []
+  - _group: _Grassland
+    _tileID: 891016463
+    Default: {fileID: 5075202318559368039, guid: d58d938519ae2f5449d99d3e5bfc2d8a,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Ramp
+    Rules: []
+  - _group: _Grassland
+    _tileID: -281835595
+    Default: {fileID: 3036944043791879974, guid: b78abb3b70fc51541bc95a16b27125f8,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Tower
+    Rules: []
+  - _group: _Grassland
+    _tileID: 907066484
+    Default: {fileID: 4099591648088895819, guid: ef7cc408ed6effd438d56df82c64f740,
+      type: 3}
+    Randoms:
+    - {fileID: 4099591648088895819, guid: 5b0c4f89ac117814f8913685fe774d76, type: 3}
+    - {fileID: 4099591648088895819, guid: f7402924f391df94fa39bc291475a8d6, type: 3}
+    - {fileID: 4099591648088895819, guid: 317e5730d4f136e4fbfb18df84ed8784, type: 3}
+    - {fileID: 4099591648088895819, guid: 3a2fa595f701f0843900b15a23ae9e90, type: 3}
+    Random: 1
+    _name: Rock
+    Rules: []
+  - _group: _Grassland
+    _tileID: -236840904
+    Default: {fileID: 1579803998297846294, guid: d49ac61237269834e95836208f7edca8,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Blockade
+    Rules: []
+  - _group: _Grassland
+    _tileID: 1577873333
+    Default: {fileID: 2835275190508713746, guid: 435fdacfeff97764ca06b5cfed6561b6,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Ground3
+    Rules:
+    - IsActive: 1
+      Object: {fileID: 2835275190508713746, guid: 435fdacfeff97764ca06b5cfed6561b6,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000
+      AllowRotation: 000000
+      _ruleID: 552995881
+    - IsActive: 1
+      Object: {fileID: 6425495085288532369, guid: a4fc025bc27e97c4194de74a2b0b0792,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000010000000000000001000000000000000200000000000000000000000000000000000000000000000200000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: 276357574
+    - IsActive: 1
+      Object: {fileID: 5557073442131824239, guid: e9b42cf3d89d0624391838a0b3236470,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000000000000000000000000000000000000000000010000000100000000000000010000000000000002000000000000000200000000000000000000000000000000000000000000000200000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: -323236313
+    - IsActive: 1
+      Object: {fileID: 38398962181010381, guid: 71d19eb814a929144ab701fbae84b121,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000000000000000000000000000000000000000000000000000100000002000000010000000000000001000000000000000100000000000000000000000000000000000000000000000200000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: -1902719687
+  - _group: _Grassland
+    _tileID: 146753779
+    Default: {fileID: 4865390592981968319, guid: d42c3f7667e6bee499d8576d29a851ee,
+      type: 3}
+    Randoms:
+    - {fileID: 3913907979831597039, guid: 6870eabb1e3098d4d841e2aec795dc13, type: 3}
+    - {fileID: 3198551040232067628, guid: b90e4f40e030c4d49b43bce22f556910, type: 3}
+    Random: 1
+    _name: Grass
+    Rules: []
+  - _group: _Grassland
+    _tileID: -2124576299
+    Default: {fileID: 5673312704432450739, guid: 0ffe04b0063d0f44c88798291fb8e079,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Water
+    Rules:
+    - IsActive: 1
+      Object: {fileID: 6193940805216890089, guid: 7346ef3c1935ed3448ade666af2caf0f,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000100000000000000000000000000000000000000000000000200000000000000010000000000000001000000000000000100000000000000000000000000000000000000000000000200000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: -956355983
+    - IsActive: 1
+      Object: {fileID: 2835275190508713746, guid: 6120a979eba206640880bfb3eaf5e85b,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000
+      AllowRotation: 000000
+      _ruleID: 896699979
+  - _group: _Grassland
+    _tileID: -416123969
+    Default: {fileID: 2111305186026582353, guid: ee8b26584366e3c429c8fe43ee9f7d0a,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Bridge
+    Rules: []
+  - _group: _Grassland
+    _tileID: -1306394002
+    Default: {fileID: 3559255296946930180, guid: 376d9f4bdca95ea40b06d9b555aef848,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Bridgehead
+    Rules: []
+  - _group: _Grassland
+    _tileID: 1657774364
+    Default: {fileID: 1305439774373217207, guid: e06c304d5148eee468bd49f8f644fe34,
+      type: 3}
+    Randoms:
+    - {fileID: 3528494890743051445, guid: 9471ffe58e60a904d8430fe63303c971, type: 3}
+    - {fileID: 8878325386119833871, guid: ae9ab787cb5dae04da412df3034d9e3b, type: 3}
+    - {fileID: 8878325386119833871, guid: 08309f0bb3cea19478f51de6c947ddbf, type: 3}
+    Random: 1
+    _name: House
+    Rules: []
+  - _group: _Grassland
+    _tileID: 1886059733
+    Default: {fileID: 4865390592981968319, guid: c4040fd7148373c419a87b60dab70eec,
+      type: 3}
+    Randoms:
+    - {fileID: 4865390592981968319, guid: 4311985caab80fc46af001bf94c3ae5e, type: 3}
+    - {fileID: 4865390592981968319, guid: 17da40affffc721449d44e621c27f259, type: 3}
+    Random: 1
+    _name: Flower
+    Rules: []
+  - _group: _Grassland
+    _tileID: 920630980
+    Default: {fileID: 900002512984286916, guid: af5560246a7f1b44585707049b4fc3aa,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: WaterCorner
+    Rules: []
+  - _group: _Grassland
+    _tileID: 394281906
+    Default: {fileID: 7241590505082833983, guid: 5f6dfffdfc1a35b44b053b2b48294583,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Rock(1)
+    Rules: []

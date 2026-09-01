@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ad0e31096a30f468cc74bb36206caa, type: 3}
+  m_Name: Dragon
+  m_EditorClassIdentifier: 
+  data:
+    icon: {fileID: 21300000, guid: 8bcb6f3ccc753f74395be2bf2301bf1c, type: 3}
+    id: 0
+    name: Dragon
+    transformed: 0
+    reward: 300
+    points: 318
+    attackEffect: {fileID: 2394142420359396175, guid: 8cb7ae6eaf928564098bbf902d4e3d62,
+      type: 3}
+    attackElement: 1
+    formula:
+      expression: a.attack * 2 - b.defence
+    battleBackScene: First
+    battlerScale: {x: 0.7, y: 0.7}
+    startingAttributeValues:
+    - attribute: 0
+      value: 250
+    - attribute: 1
+      value: 25
+    - attribute: 2
+      value: 20
+    - attribute: 3
+      value: 5
+    - attribute: 4
+      value: 10
+    - attribute: 5
+      value: 20
+    - attribute: 6
+      value: 3
+    startingResistanceValues:
+    - element: 0
+      value: 0
+    - element: 1
+      value: 30
+    - element: 2
+      value: 30
+    - element: 3
+      value: -50
+    - element: 4
+      value: 0
+    - element: 5
+      value: 0
+    - element: 6
+      value: -25
+    sequences: []
+    loot: []
+    moves:
+    - enabled: 1
+      moveId: 0
+      priority: 1
+      weightGain: 1
+      spell: {fileID: 0}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []
+    - enabled: 1
+      moveId: 1
+      priority: 2
+      weightGain: 3
+      spell: {fileID: 11400000, guid: f3863cb3c5022c74981b19a9cc870719, type: 2}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions:
+      - attributeId: 0
+        condition: 3
+        value: 35
+        valueType: 1
+      stateConditions: []
+    - enabled: 1
+      moveId: 1
+      priority: 2
+      weightGain: 5
+      spell: {fileID: 11400000, guid: 5ef249af0af554b43a30bae3626da11e, type: 2}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions:
+      - state: {fileID: 11400000, guid: 90ea7d71d42d64a4b83d20708145eccb, type: 2}
+        target: 1
+        exist: 0
+    - enabled: 1
+      moveId: 1
+      priority: 3
+      weightGain: 3
+      spell: {fileID: 11400000, guid: 239dd6db0570a614fa77d9eff7f97f5e, type: 2}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []

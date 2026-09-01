@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 420e4a5f547f9f444be8723ecbe0193b, type: 3}
+  m_Name: Bloodloss
+  m_EditorClassIdentifier: 
+  state:
+    icon: {fileID: -1468509721, guid: b9a790491e3d0ae44bd2b8b230bcc044, type: 3}
+    name: bstate_bloodloss
+    description: bstate_bloodloss_description
+    channel: -1
+    frequency: 1
+    activation: 0
+    timeLimited: 0
+    turnsToExpire: 5
+    actions:
+    - actionType: 1
+      target: 1
+      element: 0
+      userElement: 0
+      formula:
+        expression: 5
+      attribute: 0
+      state: {fileID: 0}
+      allStates: 0
+      source: 
+      repeat: {x: 1, y: 1}
+      turnLimit: 0
+      turnLimitCount: 0
+    notes: 

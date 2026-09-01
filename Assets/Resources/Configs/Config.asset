@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9808f3f65cacc234398727da62d89e22, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  attributeValueLimits: {x: 1, y: 100}
+  hpValuesLimit: {x: 0, y: 999}
+  castNormal: {fileID: 968357589, guid: 1e032b1d86c6349409434fbbddea9ddc, type: 3}
+  castQuick: {fileID: 1820618349, guid: 1e032b1d86c6349409434fbbddea9ddc, type: 3}
+  defaultAttackEffect: {fileID: 2394142420359396175, guid: 8cb7ae6eaf928564098bbf902d4e3d62,
+    type: 3}
+  defaultSpellEffect: {fileID: 2394142420359396175, guid: 8cb7ae6eaf928564098bbf902d4e3d62,
+    type: 3}
+  defaultFailEffect: {fileID: 2394142420359396175, guid: 45228351d44000f41bb618fb24725e8d,
+    type: 3}
+  damageNumbers: {fileID: 880041913671767664, guid: bf9f916c6d286ec4a8345dda82c2566f,
+    type: 3}
+  baseAttackHitChance: 98
+  riskyAttackDebuffFormula: -25
+  riskyAttackDebuffTime: 2
+  battleStatesInterval: 0.2
+  weightReset: 5
+  weightIncrease: 1
+  priorityRandomness: {x: -1, y: 1}
+  progression:
+  - {fileID: 11400000, guid: 561377e68aac8f64680e6fc2cdb6c797, type: 2}
+  - {fileID: 11400000, guid: dbbe230831dc5424086366899457a9f0, type: 2}
+  - {fileID: 11400000, guid: c5d645f3eaa7e0648bbc4839cdec00c1, type: 2}
+  - {fileID: 11400000, guid: 6e730711b034962448756a30abda97eb, type: 2}
+  _attributePositive: {r: 0, g: 0.5188679, b: 0.061291624, a: 1}
+  _attributeNegative: {r: 0.5754717, g: 0, b: 0, a: 1}
+  _attributeNormal: {r: 0.3882353, g: 0.20392157, b: 0.19215687, a: 1}
+  _getHitSfx: {fileID: 8300000, guid: a50b16e74913e4fb7a313d11596705ba, type: 3}
+  _slashSfx: {fileID: 8300000, guid: 10f74bc5c2eee40f0a66c7fb92e0cc8d, type: 3}
+  _clawSfx: {fileID: 8300000, guid: 8eb73cd9d9505f84da92cf3648986a16, type: 3}
+  _deathSfx: {fileID: 8300000, guid: 258ccb9a66750e7429dae8fa81ddfe28, type: 3}
+  _battleTriggerSfx: {fileID: 8300000, guid: 291dbc92b962d3c4189407d6fde4f538, type: 3}
+  _battlerFadeOut: {fileID: 8300000, guid: c637f77f4abc57e4c9e23e3dfb2633b6, type: 3}
+  _addBattleLootSfx: {fileID: 8300000, guid: 63d7d34814898d84da534f9bb272319c, type: 3}
+  _addBattleExpSfx: {fileID: 8300000, guid: 2d3d020ad205ed749bab5c907e9462cb, type: 3}
+  _battleWonSfx: {fileID: 8300000, guid: 291dbc92b962d3c4189407d6fde4f538, type: 3}
+  _battleLostSfx: {fileID: 8300000, guid: 5afcc1d0bf0818446a09ce41a668849f, type: 3}
+  _stepSfx: {fileID: 8300000, guid: fcef7e067259bbf45b2ddc2a6b625a78, type: 3}
+  _buttonHoverSfx: {fileID: 8300000, guid: b85b79a760d3cad47b8a8ea74c140141, type: 3}
+  _buttonClickSfx: {fileID: 8300000, guid: 28c922b5817e3ba4e8876ddebf1e0e03, type: 3}
+  _teleportSfx: {fileID: 8300000, guid: 83777526b976b48449420ffa9cb2724e, type: 3}
+  _goldSfx: {fileID: 8300000, guid: d4190823e3619dc47b18e4097fb1ba26, type: 3}
+  _lootPunchSfx: {fileID: 8300000, guid: f0f129976a9540e4db5a723879583127, type: 3}
+  _levelUp: {fileID: 8300000, guid: fca4acea57559b741a912eaf1a718870, type: 3}

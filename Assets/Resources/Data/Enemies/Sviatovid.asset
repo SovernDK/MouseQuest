@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ad0e31096a30f468cc74bb36206caa, type: 3}
+  m_Name: Sviatovid
+  m_EditorClassIdentifier: 
+  data:
+    icon: {fileID: 21300000, guid: 6f543a78b7d13f14f887cd70af770de3, type: 3}
+    id: 0
+    name: Sviatovid
+    transformed: 0
+    reward: 300
+    points: 313
+    attackEffect: {fileID: 2394142420359396175, guid: 29b8a97e42975fe4db611a01791128d4,
+      type: 3}
+    attackElement: 3
+    formula:
+      expression: a.magicattack * 2 - b.magicdefence
+    battleBackScene: Shrine
+    battlerScale: {x: 0.7, y: 0.7}
+    startingAttributeValues:
+    - attribute: 0
+      value: 200
+    - attribute: 1
+      value: 5
+    - attribute: 2
+      value: 5
+    - attribute: 3
+      value: 30
+    - attribute: 4
+      value: 30
+    - attribute: 5
+      value: 40
+    - attribute: 6
+      value: 3
+    startingResistanceValues:
+    - element: 0
+      value: 0
+    - element: 1
+      value: -50
+    - element: 2
+      value: 10
+    - element: 3
+      value: 10
+    - element: 4
+      value: 10
+    - element: 5
+      value: 10
+    - element: 6
+      value: 10
+    sequences: []
+    loot: []
+    moves:
+    - enabled: 1
+      moveId: 0
+      priority: 1
+      weightGain: 3
+      spell: {fileID: 0}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []
+    - enabled: 1
+      moveId: 1
+      priority: 2
+      weightGain: 2
+      spell: {fileID: 11400000, guid: 3601d345ca6c1274f9674ffd42d50be2, type: 2}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []
+    - enabled: 1
+      moveId: 1
+      priority: 2
+      weightGain: 2
+      spell: {fileID: 11400000, guid: 92977faa8a28c3e47b66bee7a22a162b, type: 2}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []
+    - enabled: 1
+      moveId: 1
+      priority: 2
+      weightGain: 2
+      spell: {fileID: 11400000, guid: f48c9b960d665c04285521344f7044dc, type: 2}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []
+    - enabled: 1
+      moveId: 2
+      priority: 10
+      weightGain: 0
+      spell: {fileID: 0}
+      enemies:
+      - {fileID: 11400000, guid: 53035648e10929942a91de4ad6305da8, type: 2}
+      - {fileID: 11400000, guid: 0899d14927addb341ac337936605b2f0, type: 2}
+      - {fileID: 11400000, guid: 6a1bd0e8814c79648b6070a31499d553, type: 2}
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions:
+      - attributeId: 0
+        condition: 3
+        value: 50
+        valueType: 0
+      stateConditions: []

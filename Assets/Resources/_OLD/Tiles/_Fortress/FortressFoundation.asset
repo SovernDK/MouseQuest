@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5548579e4c37e8e41a18fc96b9fd397b, type: 3}
+  m_Name: FortressFoundation
+  m_EditorClassIdentifier: 
+  Tiles:
+  - _group: FortressFoundation
+    _tileID: -2014340157
+    Default: {fileID: 2836930627822041126, guid: 1020f044282d98b4b9e514e2f14a50ef,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: fill
+    Rules: []
+  - _group: FortressFoundation
+    _tileID: 1813346501
+    Default: {fileID: 1789076918172827873, guid: 8ebc162c92f1d4244b7a6fd2d1c65f5c,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: border
+    Rules:
+    - IsActive: 1
+      Object: {fileID: 8073998192929777291, guid: 4af90cda7ecc52a409e7128fec775a90,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000010000000000000001000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: 2048491503
+    - IsActive: 1
+      Object: {fileID: 2736806389572400878, guid: 720de4933790c334e97e05f0157250a6,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000000000000000000000000000000000000000000010000000100000000000000010000000000000002000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: -795783582
+    - IsActive: 1
+      Object: {fileID: 2776712102793005964, guid: 2d082d881011a2e448e2c04400440bf3,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000000000000000000000000000000000000000000010000000100000001000000010000000000000001000000010000000100000002000000000000000000000000000000000000000000000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: -1131878797
+  - _group: FortressFoundation
+    _tileID: 976007015
+    Default: {fileID: 8679512170257797035, guid: b72d408f6f7756c4f850874632fcfeb7,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Ramp
+    Rules: []
+  - _group: FortressFoundation
+    _tileID: 1775618663
+    Default: {fileID: 3430521923943161782, guid: 11d56284b212cb746bdd2ce5eb164d6f,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Bridge
+    Rules:
+    - IsActive: 1
+      Object: {fileID: 1751029449411402259, guid: 79b9703ae043da8489b065695f2b8eab,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000020000000000000002000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: -595392889
+  - _group: FortressFoundation
+    _tileID: -1671679549
+    Default: {fileID: 1545421622264275734, guid: 331280a1f751d294cbeb377099de4725,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: door
+    Rules: []

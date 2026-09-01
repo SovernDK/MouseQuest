@@ -1,0 +1,2546 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &23765110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 23765114}
+  - component: {fileID: 23765115}
+  - component: {fileID: 23765113}
+  - component: {fileID: 23765112}
+  - component: {fileID: 23765111}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &23765111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23765110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 1015
+--- !u!114 &23765112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23765110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &23765113
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23765110}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &23765114
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23765110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 709898110}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &23765115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23765110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c877b40bc3868544a33e2d412e28eb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newGame: {fileID: 1412401901994330340, guid: dfd79a0c9e175734ab28792ab5c4d91a, type: 3}
+  content: {fileID: 2088336929}
+  newGameButton: {fileID: 1750174960840220121, guid: dfd79a0c9e175734ab28792ab5c4d91a,
+    type: 3}
+--- !u!1 &44625642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 44625643}
+  - component: {fileID: 44625646}
+  - component: {fileID: 44625645}
+  - component: {fileID: 44625644}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &44625643
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44625642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 622066896}
+  m_Father: {fileID: 1082804918}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &44625644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44625642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 1015
+--- !u!114 &44625645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44625642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &44625646
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44625642}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 999
+  m_TargetDisplay: 0
+--- !u!1 &268766524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 268766526}
+  - component: {fileID: 268766525}
+  m_Layer: 0
+  m_Name: I2 Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &268766525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268766524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488051eaa73ba421e8fe4868f2e0f364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: app_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Skiv
+      - Skiv
+      Flags: 0000
+      Languages_Touch: []
+    - Term: default
+      TermType: 0
+      Description: 
+      Languages:
+      - Default
+      - Default
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_
+      TermType: 0
+      Description: 
+      Languages:
+      - Item
+      - Przedmioty
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_
+      TermType: 0
+      Description: 
+      Languages:
+      - Spell
+      - "Zakl\u0119cie"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ===BATTLE===
+      TermType: 0
+      Description: 
+      Languages:
+      - BATTLE
+      - BATTLE
+      Flags: 0000
+      Languages_Touch: []
+    - Term: battle_player_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Player
+      - Gracz
+      Flags: 0000
+      Languages_Touch: []
+    - Term: battle_enemy_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Enemy
+      - "Wr\xF3g"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: battle_you
+      TermType: 0
+      Description: 
+      Languages:
+      - You
+      - Ty
+      Flags: 0000
+      Languages_Touch: []
+    - Term: battle_have_been_hit_for
+      TermType: 0
+      Description: 
+      Languages:
+      - have been hit for
+      - "otrzyma\u0142"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: battle_damage
+      TermType: 0
+      Description: 
+      Languages:
+      - damage
+      - "obra\u017Ce\u0144"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: battle_magic_damage
+      TermType: 0
+      Description: 
+      Languages:
+      - magic damage
+      - "magicznych obra\u017Ce\u0144"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: npc_vil1
+      TermType: 0
+      Description: 
+      Languages:
+      - Villager
+      - "Ch\u0142op"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ===UI===
+      TermType: 0
+      Description: 
+      Languages:
+      - UI
+      - UI
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_atk_command
+      TermType: 0
+      Description: 
+      Languages:
+      - Attack
+      - Atak
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_ris_atk_command
+      TermType: 0
+      Description: 
+      Languages:
+      - Risky Attack
+      - Ryzykowny Atak
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_item_command
+      TermType: 0
+      Description: 
+      Languages:
+      - Inventory
+      - Plecak
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_spell_command
+      TermType: 0
+      Description: 
+      Languages:
+      - Spellbook
+      - "Zakl\u0119cia"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_switch_weapon_command
+      TermType: 0
+      Description: 
+      Languages:
+      - Switch
+      - "Zmie\u0144"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_flee_command
+      TermType: 0
+      Description: 
+      Languages:
+      - Flee
+      - Ucieczka
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_shop_command
+      TermType: 0
+      Description: 
+      Languages:
+      - Shop
+      - Sklep
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_hp
+      TermType: 0
+      Description: 
+      Languages:
+      - HP
+      - "P\u017B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_victory
+      TermType: 0
+      Description: 
+      Languages:
+      - Victory
+      - Wygrana
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_lose
+      TermType: 0
+      Description: 
+      Languages:
+      - Lost
+      - Przegrana
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_battle_end
+      TermType: 0
+      Description: 
+      Languages:
+      - End
+      - "Zako\u0144cz"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_attributes
+      TermType: 0
+      Description: 
+      Languages:
+      - Attributes
+      - Cechy
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_exp_label
+      TermType: 0
+      Description: 
+      Languages:
+      - Exp
+      - "Do\u015B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_level_up
+      TermType: 0
+      Description: 
+      Languages:
+      - Level Up!
+      - Nowy Poziom!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_level
+      TermType: 0
+      Description: 
+      Languages:
+      - Level
+      - Poziom
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_level_curr
+      TermType: 0
+      Description: 
+      Languages:
+      - Current
+      - Aktualny
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_level_next
+      TermType: 0
+      Description: 
+      Languages:
+      - Next
+      - Nastepny
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_loot
+      TermType: 0
+      Description: 
+      Languages:
+      - Loot
+      - "\u0141up"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_hp_attr
+      TermType: 0
+      Description: 
+      Languages:
+      - Hitpoints
+      - "Punkty \u017Cycia"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_atk_attr
+      TermType: 0
+      Description: 
+      Languages:
+      - Attack
+      - Atak
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_def_attr
+      TermType: 0
+      Description: 
+      Languages:
+      - Defence
+      - Obrona
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_matk_attr
+      TermType: 0
+      Description: 
+      Languages:
+      - Magic Attack
+      - M. Atak
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_mdef_attr
+      TermType: 0
+      Description: 
+      Languages:
+      - Magic Defense
+      - M. Obrona
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_speed_attr
+      TermType: 0
+      Description: 
+      Languages:
+      - Speed
+      - "Szybko\u015B\u0107"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_crit_attr
+      TermType: 0
+      Description: 
+      Languages:
+      - Critical Hit
+      - Szansa krytyczna
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_hp_attr_shr
+      TermType: 0
+      Description: 
+      Languages:
+      - HP
+      - "P\u017B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_atk_attr_shr
+      TermType: 0
+      Description: 
+      Languages:
+      - ATK
+      - ATK
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_def_attr_shr
+      TermType: 0
+      Description: 
+      Languages:
+      - DEF
+      - OBR
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_matk_attr_shr
+      TermType: 0
+      Description: 
+      Languages:
+      - MATK
+      - MATK
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_mdef_attr_shr
+      TermType: 0
+      Description: 
+      Languages:
+      - MDEF
+      - MOBR
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_speed_attr_shr
+      TermType: 0
+      Description: 
+      Languages:
+      - SPD
+      - SZY
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_crit_attr_shr
+      TermType: 0
+      Description: 
+      Languages:
+      - CRIT
+      - KRYT
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_hp_attr_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - How much you can take before dying
+      - "Jak wiele jeste\u015B w stanie znie\u015B\u0107 zanim umrzesz"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_atk_attr_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - How strong your physical attacks are
+      - "Jak silne s\u0105 twoje ataki fizyczne"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_def_attr_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Reduces Physical Damage taken
+      - "Redukuje otrzymane fizyczne obra\u017Cenia"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_matk_attr_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - How strong your magic is
+      - "Si\u0142a twojej magi"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_mdef_attr_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Reduces Magical Damage taken
+      - "Redukuje otrzymane magiczne obra\u017Cenia"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_speed_attr_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - How often you can act first in a turn
+      - "Jak cz\u0119sto mo\u017Cesz dzia\u0142a\u0107 pierwszy w turze"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_crit_attr_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Lorem ipsum et dolorem Lorem ipsum et dolorem
+      - Lorem ipsum et dolorem Lorem ipsum et dolorem
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_eq_weapon_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Weapon I
+      - "Bro\u0144 I"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_eq_weapon_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Weapon II
+      - "Bro\u0144 II"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_eq_armor
+      TermType: 0
+      Description: 
+      Languages:
+      - Armor
+      - Zbroja
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_eq_other
+      TermType: 0
+      Description: 
+      Languages:
+      - Accesory
+      - Akcesoria
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ui_spellcraft_craft
+      TermType: 0
+      Description: 
+      Languages:
+      - Save
+      - Zapisz
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ===ITEMS===
+      TermType: 0
+      Description: 
+      Languages:
+      - ITEMS
+      - ITEMS
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_empty
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_saber
+      TermType: 0
+      Description: 
+      Languages:
+      - Saber
+      - Szabla
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_axe
+      TermType: 0
+      Description: 
+      Languages:
+      - Battle Axe
+      - "Top\xF3r Bojowy"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_chainmail
+      TermType: 0
+      Description: 
+      Languages:
+      - Chainmail
+      - Kolczuga
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_cuirass
+      TermType: 0
+      Description: 
+      Languages:
+      - Curiass
+      - Kiras
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_lavellan_brain
+      TermType: 0
+      Description: 
+      Languages:
+      - Lavellan Brain
+      - "M\xF3zg Lavellana"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_lavellan_shell
+      TermType: 0
+      Description: 
+      Languages:
+      - Lavellan Shell
+      - Pancerz Lavellana
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_sallet
+      TermType: 0
+      Description: 
+      Languages:
+      - Sallet
+      - Sallet
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_round_shield
+      TermType: 0
+      Description: 
+      Languages:
+      - Round Shield
+      - "Okr\u0105g\u0142a Tarcza"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_goblin_eye
+      TermType: 0
+      Description: 
+      Languages:
+      - Goblin's Eye
+      - Oko Goblina
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_goblin_skin
+      TermType: 0
+      Description: 
+      Languages:
+      - Goblin's Skin
+      - "Sk\xF3ra Goblina"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_cruciata_core
+      TermType: 0
+      Description: 
+      Languages:
+      - Cruciata Core
+      - "Rdze\u0144 Cruciaty"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_naja_fang
+      TermType: 0
+      Description: 
+      Languages:
+      - Naja Fang
+      - "Kie\u0142 Naja"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_rats_tail
+      TermType: 0
+      Description: 
+      Languages:
+      - Rats Tail
+      - Szczurzy Ogon
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_brigandine
+      TermType: 0
+      Description: 
+      Languages:
+      - Brigandine
+      - Brygantyna
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_health_potion
+      TermType: 0
+      Description: 
+      Languages:
+      - Healing Potion
+      - Mikstura Lecznicza
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_type_none
+      TermType: 0
+      Description: 
+      Languages:
+      - None
+      - "\u017Baden"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_type_weapon
+      TermType: 0
+      Description: 
+      Languages:
+      - Weapon
+      - "Bro\u0144"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_type_armor
+      TermType: 0
+      Description: 
+      Languages:
+      - Armor
+      - Zbroja
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_type_component
+      TermType: 0
+      Description: 
+      Languages:
+      - Component
+      - "Materia\u0142"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_default_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Lorem ipsum dolor sit amet
+      - ' consectetur adipiscing elit. Phasellus tristique posuere neque quis venenatis
+        Lorem ipsum dolor sit amet consectetur adipiscing elit. Phasellus tristique
+        posuere neque quis venenatis'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_saber_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - This finely crafted saber is a work of true master.
+      - "Ta misternie wykonana szabla jest dzie\u0142em prawdziwego mistrza."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_chainmail_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Made out of connected small metal rings
+      - ' this shirt ensures your guts will remain intact. Made out of connected
+        small metal rings this shirt ensures your guts will remain intact.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_axe_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - As cheap as it is effective
+      - Tani i skuteczny
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_sallet_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_round_shield_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_holy_water
+      TermType: 0
+      Description: 
+      Languages:
+      - Holy Water
+      - "Woda \u015Awi\u0119cona"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_great_health_potion
+      TermType: 0
+      Description: 
+      Languages:
+      - Greater Healing Potion
+      - "Wi\u0119ksza Mikstura Lecznicza"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_warrior_potion
+      TermType: 0
+      Description: 
+      Languages:
+      - Warrior Potion
+      - Mikstura Wojownika
+      Flags: 0000
+      Languages_Touch: []
+    - Term: item_castle_potion
+      TermType: 0
+      Description: 
+      Languages:
+      - Castle Potion
+      - Mikstura Twierdzy
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ===SPELLS===
+      TermType: 0
+      Description: 
+      Languages:
+      - SPELLS
+      - SPELLS
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_none
+      TermType: 0
+      Description: 
+      Languages:
+      - None
+      - Brak
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_fire_arrow
+      TermType: 0
+      Description: 
+      Languages:
+      - Fire arrow
+      - Ognisty pocisk
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_haste
+      TermType: 0
+      Description: 
+      Languages:
+      - Haste
+      - "Po\u015Bpiech"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_dark_knives
+      TermType: 0
+      Description: 
+      Languages:
+      - Dark Knives
+      - "No\u017Ce Mroku"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_darkness
+      TermType: 0
+      Description: 
+      Languages:
+      - Darkness
+      - Mrok
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_dark_laser
+      TermType: 0
+      Description: 
+      Languages:
+      - Dark Laser
+      - Mroczny Laser
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_fire_breath
+      TermType: 0
+      Description: 
+      Languages:
+      - Fire breath
+      - Ognisty dech
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_cursed_resolve
+      TermType: 0
+      Description: 
+      Languages:
+      - Cursed Resolve
+      - "Przekl\u0119te Postanowienie"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_ferocity
+      TermType: 0
+      Description: 
+      Languages:
+      - Ferocity
+      - "Dziko\u015B\u0107"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_strike
+      TermType: 0
+      Description: 
+      Languages:
+      - Strike
+      - Uderzenie
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_cat_eye
+      TermType: 0
+      Description: 
+      Languages:
+      - Cat Eyes
+      - Koci wzrok
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_invis
+      TermType: 0
+      Description: 
+      Languages:
+      - Invisibility
+      - "Newidzialno\u015B\u0107"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_heal
+      TermType: 0
+      Description: 
+      Languages:
+      - Heal
+      - Leczenie
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_castle
+      TermType: 0
+      Description: 
+      Languages:
+      - Castle
+      - Twierdza
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_holy_spirit
+      TermType: 0
+      Description: 
+      Languages:
+      - Holy Spirit
+      - "Duch \u015Awi\u0119ty"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_waterfall
+      TermType: 0
+      Description: 
+      Languages:
+      - Waterfall
+      - Wodospad
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_curse
+      TermType: 0
+      Description: 
+      Languages:
+      - Curse
+      - "Kl\u0105twa"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_spears_of_light
+      TermType: 0
+      Description: 
+      Languages:
+      - Spears of Light
+      - "W\u0142\xF3cznie \u015Awiat\u0142o\u015Bci"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_cleansing
+      TermType: 0
+      Description: 
+      Languages:
+      - Cleansing
+      - Oczyszczenie
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_hurricane
+      TermType: 0
+      Description: 
+      Languages:
+      - Hurricane
+      - Tornado
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_fire_spirit
+      TermType: 0
+      Description: 
+      Languages:
+      - Spirit of Fire
+      - "Duch P\u0142omieni"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_dragon_flame
+      TermType: 0
+      Description: 
+      Languages:
+      - Dragon Flame
+      - "Smoczy P\u0142omie\u0144"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_darkness_spirit
+      TermType: 0
+      Description: 
+      Languages:
+      - Spirit of Darkness
+      - "Duch Ciemno\u015Bci"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_sunrise
+      TermType: 0
+      Description: 
+      Languages:
+      - Sunrise
+      - "\u015Awit"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_primordial_magma
+      TermType: 0
+      Description: 
+      Languages:
+      - Primordial Magma
+      - Pierwotna Magma
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_water_spirit
+      TermType: 0
+      Description: 
+      Languages:
+      - Spirit of Water
+      - Duch Wody
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_sunshine
+      TermType: 0
+      Description: 
+      Languages:
+      - Sunshine
+      - "\u015Awiat\u0142o\u015B\u0107"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_wind_spirit
+      TermType: 0
+      Description: 
+      Languages:
+      - Spirit of Wind
+      - Duch Wiatru
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_desc_default
+      TermType: 0
+      Description: 
+      Languages:
+      - Lorem ipsum dolor sit amet consectetur adipiscing elit. Phasellus tristique
+        posuere neque quis venenatis
+      - Lorem ipsum dolor sit amet consectetur adipiscing elit. Phasellus tristique
+        posuere neque quis venenatis
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_desc_fire_arrow
+      TermType: 0
+      Description: 
+      Languages:
+      - One of the most basic offensive spells shooting a projectile of pure fire.
+      - "Podstawowe ofensywne zakl\u0119cie wystrzeliwujace pocisk czystego ognia
+        w kierunku przeciwnika."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_desc_fire_breath
+      TermType: 0
+      Description: 
+      Languages:
+      - Breathing fire is proven method of killing your oponents.
+      - "Zianie ogniem jest sprawdzon\u0105 metod\u0105 wygrywania walk."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_desc_magic_missile
+      TermType: 0
+      Description: 
+      Languages:
+      - Shoots out multiple projectiles which will follow the target impossible to
+        evade.
+      - "Wystrzeliwuje salwe magicznych pocisk\xF3w kt\xF3re nie znikn\u0105 p\xF3ki
+        nie siegn\u0105 celu niemo\u017Cliwe do unikni\u0119cia."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_desc_cat_eye
+      TermType: 0
+      Description: 
+      Languages:
+      - This spell extends your sight in pitch-black condition revealing hidden dangers
+        obstacles and secret passages. Ideal for navigating shadowy dungeons nighttime
+        ambushes or stealthy explorations
+      - "Zakl\u0119cie to pozwala widzie\u0107 w ca\u0142kowitej ciemno\u015Bci"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_desc_invis
+      TermType: 0
+      Description: 
+      Languages:
+      - This spell makes you hidden from the eyes of oponents
+      - "To zakl\u0119cie ukrywa ci\u0119 przed wzrokiem wrog\xF3w."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_desc_heal
+      TermType: 0
+      Description: 
+      Languages:
+      - This spell makes you hidden from the eyes of oponents
+      - "To zakl\u0119cie ukrywa ci\u0119 przed wzrokiem wrog\xF3w."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_haste_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Haste
+      - "Po\u015Bpiech"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_dark_knives_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Dark knives
+      - "Mroczne no\u017Ce"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_darkness_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Darkness
+      - "Ciemno\u015B\u0107"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_dark_laser_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Dark Laser
+      - Dark Laser
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_cursed_resolve_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Cursed Resolve
+      - Cursed Resolve
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_ferocity_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Ferocity
+      - Ferocity
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spell_strike_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Strike
+      - Uderzenie
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ===STATES=======
+      TermType: 0
+      Description: 
+      Languages:
+      - STATE
+      - STATE
+      Flags: 0000
+      Languages_Touch: []
+    - Term: bstate_default
+      TermType: 0
+      Description: 
+      Languages:
+      - Default
+      - Default
+      Flags: 0000
+      Languages_Touch: []
+    - Term: bstate_darkness
+      TermType: 0
+      Description: 
+      Languages:
+      - Darkness
+      - "Ciemno\u015B\u0107"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: bstate_haste
+      TermType: 0
+      Description: 
+      Languages:
+      - Haste
+      - "Po\u015Bpiech"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: bstate_burned
+      TermType: 0
+      Description: 
+      Languages:
+      - Burned
+      - Poparzony
+      Flags: 0000
+      Languages_Touch: []
+    - Term: bstate_curse
+      TermType: 0
+      Description: 
+      Languages:
+      - Curse
+      - "Kl\u0105twa"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: bstate_bloodloss
+      TermType: 0
+      Description: 
+      Languages:
+      - Bloodloss
+      - Krwawienie
+      Flags: 0000
+      Languages_Touch: []
+    - Term: bstate_default_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Default
+      - Default
+      Flags: 0000
+      Languages_Touch: []
+    - Term: bstate_bloodloss_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Bloodloss
+      - Krwawienie
+      Flags: 0000
+      Languages_Touch: []
+    - Term: bstate_darkness_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Darkness
+      - "Ciemno\u015B\u0107"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ===ELEMENTS=======
+      TermType: 0
+      Description: 
+      Languages:
+      - ELEMENTS
+      - ELEMENTS
+      Flags: 0000
+      Languages_Touch: []
+    - Term: element_fire
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Fire '
+      - "Ogie\u0144"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: element_water
+      TermType: 0
+      Description: 
+      Languages:
+      - Water
+      - Woda
+      Flags: 0000
+      Languages_Touch: []
+    - Term: element_wind
+      TermType: 0
+      Description: 
+      Languages:
+      - Wind
+      - Wiatr
+      Flags: 0000
+      Languages_Touch: []
+    - Term: element_metal
+      TermType: 0
+      Description: 
+      Languages:
+      - Metal
+      - Metal
+      Flags: 0000
+      Languages_Touch: []
+    - Term: element_holy
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Holy '
+      - "\u015Awiat\u0142o\u015B\u0107"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: element_darkness
+      TermType: 0
+      Description: 
+      Languages:
+      - Darkness
+      - Mrok
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ===DIALOGUES===
+      TermType: 0
+      Description: 
+      Languages:
+      - DIALOGUES
+      - DIALOGUES
+      Flags: 0000
+      Languages_Touch: []
+    - Term: village1
+      TermType: 0
+      Description: 
+      Languages:
+      - Rumors say somewhere in Underground powerful spell was hidden in old times
+      - "Wed\u0142ug plotek w podziemiach ukryty jest pote\u017Cny Czar z antycznych
+        czas\xF3w."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: village2
+      TermType: 0
+      Description: 
+      Languages:
+      - Thats it
+      - To tyle
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spire1
+      TermType: 0
+      Description: 
+      Languages:
+      - Future of your kind lies in the Spire
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: spire2
+      TermType: 0
+      Description: 
+      Languages:
+      - Rumors say somewhere in Underground powerful spell was hidden in old times
+      - "Wed\u0142ug plotek w podziemiach ukryty jest pote\u017Cny Czar z antycznych
+        czas\xF3w."
+      Flags: 0000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: app_name
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Polish
+      Code: pl
+      Flags: 0
+    IgnoreDeviceLanguage: 1
+    _AllowUnloadingLanguages: 2
+    Google_WebServiceURL: 
+    Google_SpreadsheetKey: 
+    Google_SpreadsheetName: 
+    Google_LastUpdatedVersion: 
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: Resources/Text/Localization_final.csv
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1
+    Spreadsheet_SortRows: 1
+  version: 1
+  NeverDestroy: 0
+  UserAgreesToHaveItOnTheScene: 0
+  UserAgreesToHaveItInsideThePluginsFolder: 0
+  GoogleLiveSyncIsUptoDate: 1
+  Assets: []
+  Google_WebServiceURL: 
+  Google_SpreadsheetKey: 
+  Google_SpreadsheetName: 
+  Google_LastUpdatedVersion: 
+  GoogleUpdateFrequency: 3
+  GoogleUpdateDelay: 5
+  mLanguages: []
+  IgnoreDeviceLanguage: 0
+  _AllowUnloadingLanguages: 0
+  mTerms: []
+  CaseInsensitiveTerms: 0
+  OnMissingTranslation: 1
+  mTerm_AppName: 
+  Spreadsheet_LocalFileName: 
+  Spreadsheet_LocalCSVSeparator: ','
+  Spreadsheet_LocalCSVEncoding: utf-8
+  Spreadsheet_SpecializationAsRows: 1
+  Spreadsheet_SortRows: 1
+  Google_Password: change_this
+  GoogleInEditorCheckFrequency: 2
+--- !u!4 &268766526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268766524}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.476, y: -1.151597, z: 13.287216}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &529385542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 529385545}
+  - component: {fileID: 529385544}
+  - component: {fileID: 529385546}
+  m_Layer: 0
+  m_Name: SceneContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &529385544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529385542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89715ad69b973a14899afa2c6730b30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 529385546}
+  _installerPrefabs: []
+  _autoRun: 1
+  OnPreInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPreResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  _parentNewObjectsUnderSceneContext: 0
+  _contractNames: []
+  _parentContractNames: []
+--- !u!4 &529385545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529385542}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &529385546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529385542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca14c143d810184cb0c11cc66e092fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &622066895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622066896}
+  - component: {fileID: 622066898}
+  - component: {fileID: 622066897}
+  m_Layer: 0
+  m_Name: Transition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &622066896
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622066895}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 44625643}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &622066897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622066895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &622066898
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622066895}
+  m_CullTransparentMesh: 1
+--- !u!1 &709898109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 709898110}
+  - component: {fileID: 709898112}
+  - component: {fileID: 709898111}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &709898110
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709898109}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2088336929}
+  m_Father: {fileID: 23765114}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &709898111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709898109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &709898112
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709898109}
+  m_CullTransparentMesh: 1
+--- !u!1 &718796853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 718796856}
+  - component: {fileID: 718796855}
+  - component: {fileID: 718796854}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &718796854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718796853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &718796855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718796853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &718796856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718796853}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1082804916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1082804918}
+  - component: {fileID: 1082804917}
+  - component: {fileID: 1082804928}
+  - component: {fileID: 1082804926}
+  - component: {fileID: 1082804927}
+  - component: {fileID: 1082804919}
+  - component: {fileID: 1082804925}
+  - component: {fileID: 1082804923}
+  - component: {fileID: 1082804924}
+  - component: {fileID: 1082804929}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1082804917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082804916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cf0e91d722eeeb45b4c8a9911fd2346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1082804918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082804916}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 857.49615, y: 429.9705, z: -2.51614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 44625643}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1082804919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082804916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924c54695a4e838458cd61c712ff9c3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnGameSceneStaged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1082804917}
+        m_TargetAssemblyTypeName: Atlas.Core.Gamemaster, Assembly-CSharp
+        m_MethodName: LoadGameScene
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1082804923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082804916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be876aa8754a84d489a2cee4bb766cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1082804924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082804916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7edf44ee6a1cc042810af04e31feb1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  config: {fileID: 11400000, guid: f52c0b5f1df4c3f43b5a28032da03a7b, type: 2}
+--- !u!114 &1082804925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082804916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a716ffe63a2e4c4a87b03dcde65a86e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1082804926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082804916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98a6db0b653f764eac834f85857a9dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parentBlackboard: {fileID: 0}
+  _serializedBlackboard: '{"_variables":{}}'
+  _objectReferences: []
+  _serializedVariables: []
+--- !u!114 &1082804927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082804916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8177124a73800b4eb58c2cfbb051277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _fsm: {fileID: 1082804928}
+--- !u!114 &1082804928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082804916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a7dbb6bbdf4ffb46ab7dd87ba8191e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _serializedExposedParameters: []
+  _boundGraphSerialization: 
+  _boundGraphObjectReferences: []
+  _boundGraphSource:
+    _version: 0
+    _category: 
+    _comments: 
+    _translation: {x: 0, y: 0}
+    _zoomFactor: 1
+  _firstActivation: 0
+  _enableAction: 0
+  _disableAction: 0
+  _lockBoundGraphPrefabOverrides: 1
+  _preInitializeSubGraphs: 0
+  _updateMode: 0
+  _graph: {fileID: 11400000, guid: 31ed36f4ce7a5a847a8e77e48aafc3e3, type: 2}
+  _blackboard: {fileID: 1082804926}
+--- !u!114 &1082804929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082804916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e782ea94abdd404b8bf4fa265bac231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fade: {fileID: 622066897}
+--- !u!1 &1433849294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1433849297}
+  - component: {fileID: 1433849296}
+  - component: {fileID: 1433849295}
+  - component: {fileID: 1433849298}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1433849295
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433849294}
+  m_Enabled: 1
+--- !u!20 &1433849296
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433849294}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1433849297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433849294}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1433849298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433849294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!1 &1802871755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1802871757}
+  - component: {fileID: 1802871756}
+  - component: {fileID: 1802871758}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1802871756
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802871755}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1802871757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802871755}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1802871758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802871755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!1 &2088336928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2088336929}
+  - component: {fileID: 2088336931}
+  - component: {fileID: 2088336930}
+  - component: {fileID: 2088336932}
+  - component: {fileID: 2088336933}
+  m_Layer: 5
+  m_Name: Main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2088336929
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088336928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 709898110}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 334.1318, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2088336930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088336928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d32cc0505759ed141bd41b71167e034d, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 2
+--- !u!222 &2088336931
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088336928}
+  m_CullTransparentMesh: 1
+--- !u!114 &2088336932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088336928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 24
+    m_Right: 24
+    m_Top: 24
+    m_Bottom: 24
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &2088336933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088336928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1433849297}
+  - {fileID: 1802871757}
+  - {fileID: 529385545}
+  - {fileID: 23765114}
+  - {fileID: 718796856}
+  - {fileID: 1082804918}
+  - {fileID: 268766526}

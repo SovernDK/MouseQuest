@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ad0e31096a30f468cc74bb36206caa, type: 3}
+  m_Name: AngelII
+  m_EditorClassIdentifier: 
+  data:
+    icon: {fileID: 21300000, guid: e0ec813d5589a3846bdee950e130944f, type: 3}
+    id: 0
+    name: AngelII
+    transformed: 1
+    reward: 300
+    points: 320
+    attackEffect: {fileID: 2394142420359396175, guid: 8cb7ae6eaf928564098bbf902d4e3d62,
+      type: 3}
+    attackElement: 2
+    formula:
+      expression: a.attack * 2 - b.defence
+    battleBackScene: Shrine
+    battlerScale: {x: 0.8, y: 0.8}
+    startingAttributeValues:
+    - attribute: 0
+      value: 220
+    - attribute: 1
+      value: 20
+    - attribute: 2
+      value: 15
+    - attribute: 3
+      value: 25
+    - attribute: 4
+      value: 15
+    - attribute: 5
+      value: 27
+    - attribute: 6
+      value: 3
+    startingResistanceValues:
+    - element: 0
+      value: 0
+    - element: 1
+      value: 0
+    - element: 2
+      value: 20
+    - element: 3
+      value: -30
+    - element: 4
+      value: -20
+    - element: 5
+      value: 0
+    - element: 6
+      value: 25
+    sequences: []
+    loot: []
+    moves:
+    - enabled: 1
+      moveId: 0
+      priority: 2
+      weightGain: 1
+      spell: {fileID: 0}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []
+    - enabled: 1
+      moveId: 1
+      priority: 3
+      weightGain: 3
+      spell: {fileID: 11400000, guid: 239dd6db0570a614fa77d9eff7f97f5e, type: 2}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []
+    - enabled: 1
+      moveId: 1
+      priority: 5
+      weightGain: 3
+      spell: {fileID: 11400000, guid: 9acd9ab06d464f241ac9f445325a4465, type: 2}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions:
+      - attributeId: 5
+        condition: 3
+        value: 37
+        valueType: 1
+      stateConditions: []

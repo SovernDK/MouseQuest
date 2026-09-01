@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5548579e4c37e8e41a18fc96b9fd397b, type: 3}
+  m_Name: FortressDetails
+  m_EditorClassIdentifier: 
+  Tiles:
+  - _group: FortressDetails
+    _tileID: -1154571132
+    Default: {fileID: 8644739667046645782, guid: d772caac9edc2e04d9fc9b437d55e7fc,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Column
+    Rules: []
+  - _group: FortressDetails
+    _tileID: -544016797
+    Default: {fileID: 1994524815620228905, guid: 40e532c143e183c49b23a055e0c4cb78,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Torch
+    Rules: []
+  - _group: FortressDetails
+    _tileID: -1039882821
+    Default: {fileID: 1262619789162226188, guid: 2f6e02dba9080a64ea1a4241029bfe4b,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Rock
+    Rules: []
+  - _group: FortressDetails
+    _tileID: 909873531
+    Default: {fileID: 1994524815620228905, guid: e13a6e39dbdd30f46b0991926e1ed032,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: WallTorch
+    Rules: []
+  - _group: FortressDetails
+    _tileID: -1775461913
+    Default: {fileID: 8174356738111621312, guid: f8a5822ef332ebc47a4677dd45db83ba,
+      type: 3}
+    Randoms:
+    - {fileID: 5835656035582266945, guid: 5dcc5ee618ad68b4d860e5583fac5745, type: 3}
+    Random: 1
+    _name: Box
+    Rules: []

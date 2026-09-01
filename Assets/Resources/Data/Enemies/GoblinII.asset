@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ad0e31096a30f468cc74bb36206caa, type: 3}
+  m_Name: GoblinII
+  m_EditorClassIdentifier: 
+  data:
+    icon: {fileID: 21300000, guid: 74df1ce6fb3f8b647a12693a7b1865b2, type: 3}
+    id: 0
+    name: GoblinII
+    transformed: 1
+    reward: 300
+    points: 255
+    attackEffect: {fileID: 2394142420359396175, guid: 8cb7ae6eaf928564098bbf902d4e3d62,
+      type: 3}
+    attackElement: 3
+    formula:
+      expression: a.attack * 2 - b.defence
+    battleBackScene: First
+    battlerScale: {x: 1, y: 1}
+    startingAttributeValues:
+    - attribute: 0
+      value: 180
+    - attribute: 1
+      value: 5
+    - attribute: 2
+      value: 5
+    - attribute: 3
+      value: 20
+    - attribute: 4
+      value: 20
+    - attribute: 5
+      value: 30
+    - attribute: 6
+      value: 5
+    startingResistanceValues:
+    - element: 0
+      value: 0
+    - element: 1
+      value: 0
+    - element: 2
+      value: -25
+    - element: 3
+      value: 25
+    - element: 4
+      value: -10
+    - element: 5
+      value: 0
+    - element: 6
+      value: 0
+    sequences:
+    - conversation: New Conversation 2
+      turn: 1
+    loot: []
+    moves:
+    - enabled: 1
+      moveId: 0
+      priority: 3
+      weightGain: 1
+      spell: {fileID: 0}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []
+    - enabled: 1
+      moveId: 1
+      priority: 4
+      weightGain: 3
+      spell: {fileID: 11400000, guid: 978ec182886727041b0c26213c746ad4, type: 2}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []
+    - enabled: 1
+      moveId: 1
+      priority: 4
+      weightGain: 3
+      spell: {fileID: 11400000, guid: 0a3be68bae7365049b0ae92f978f5e9f, type: 2}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []

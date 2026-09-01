@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5548579e4c37e8e41a18fc96b9fd397b, type: 3}
+  m_Name: _Spire
+  m_EditorClassIdentifier: 
+  Tiles:
+  - _group: _Spire
+    _tileID: -289686529
+    Default: {fileID: 4947649993648454535, guid: e06ab542965ab654da459a0ad62b7ab2,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: GroundSpire
+    Rules:
+    - IsActive: 1
+      Object: {fileID: 4947649993648454535, guid: e06ab542965ab654da459a0ad62b7ab2,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000
+      AllowRotation: 000000
+      _ruleID: 2090368367
+    - IsActive: 1
+      Object: {fileID: 9165846445681710368, guid: c1a080f935bd50640a14f384cfcfcd4b,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000010000000000000001000000000000000200000000000000000000000000000000000000000000000200000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: -1640433034
+    - IsActive: 1
+      Object: {fileID: 557224598400386519, guid: b7c2e7e5e2e9e73428a8f60fb6f3b0f1,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000000000000000000000000000000000000000000010000000100000000000000010000000000000002000000000000000200000000000000000000000000000000000000000000000200000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: -1457918950
+    - IsActive: 1
+      Object: {fileID: 3382382769469994013, guid: b2e94c0c6f08a6040bfa27454a9367f1,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000000000000000000000000000000000000000000000000000100000002000000010000000000000001000000000000000100000000000000000000000000000000000000000000000200000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: 1738996596
+  - _group: _Spire
+    _tileID: -1522247673
+    Default: {fileID: 5816332822242699631, guid: c0d6f66cddab1f04cb94d7343422dca7,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Ramp(Copy)
+    Rules: []
+  - _group: _Spire
+    _tileID: 1758670092
+    Default: {fileID: 45723379280369738, guid: f0a47f38df92f9f409db22b7918af62f, type: 3}
+    Randoms: []
+    Random: 0
+    _name: Stairs
+    Rules:
+    - IsActive: 1
+      Object: {fileID: 7760433495091959974, guid: 722034a875a44d54db83d42ab0f0370d,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: 17009309
+  - _group: _Spire
+    _tileID: -879188359
+    Default: {fileID: 197897446703243687, guid: d67b16e98e423af41adb20b9771dca6a,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Rock
+    Rules: []
+  - _group: _Spire
+    _tileID: -2071074459
+    Default: {fileID: 2751937786042432839, guid: 4110e7f4c1adb474496666b17436a233,
+      type: 3}
+    Randoms:
+    - {fileID: 6013739595571138465, guid: 321ab5a2014424846a94ce395aedf860, type: 3}
+    - {fileID: 2787831738234939510, guid: ac5c902b5dff2034092b00ed494c20b9, type: 3}
+    Random: 1
+    _name: Grass
+    Rules: []
+  - _group: _Spire
+    _tileID: 938480593
+    Default: {fileID: 5673312704432450739, guid: 5c566b267f4458d4dbd14e4af8c6b0ab,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Water
+    Rules:
+    - IsActive: 1
+      Object: {fileID: 6193940805216890089, guid: eeb1ef1fddac861468c1b36070d0f35c,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000100000000000000000000000000000000000000000000000200000000000000010000000000000001000000000000000100000000000000000000000000000000000000000000000200000000000000000000000000000000000000
+      AllowRotation: 000100
+      _ruleID: -1464019853
+    - IsActive: 1
+      Object: {fileID: 2835275190508713746, guid: 6120a979eba206640880bfb3eaf5e85b,
+        type: 3}
+      Random: 0
+      Randoms: []
+      Relations: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000
+      AllowRotation: 000000
+      _ruleID: -373731208
+  - _group: _Spire
+    _tileID: 181988985
+    Default: {fileID: 3559255296946930180, guid: 376d9f4bdca95ea40b06d9b555aef848,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Bridgehead
+    Rules: []
+  - _group: _Spire
+    _tileID: -1517521966
+    Default: {fileID: 2111305186026582353, guid: ee8b26584366e3c429c8fe43ee9f7d0a,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Bridge
+    Rules: []
+  - _group: _Spire
+    _tileID: -928405292
+    Default: {fileID: 7367647751475649930, guid: 1850f02230d046e43b38b43920e650bf,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: WaterLily
+    Rules: []
+  - _group: _Spire
+    _tileID: -417907592
+    Default: {fileID: 4865390592981968319, guid: 50bfcef992482a742b26925186eea46b,
+      type: 3}
+    Randoms: []
+    Random: 0
+    _name: Flower
+    Rules: []

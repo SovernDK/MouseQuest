@@ -1,0 +1,281 @@
+Date : 2025-01-03 15:20:48
+Directory : e:\UnityProjects\MouseQuest\Assets\_Scripts
+Total : 211 files,  10033 codes, 592 comments, 2088 blanks, all 12713 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C#       |        211 |     10,033 |        592 |      2,088 |     12,713 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                  | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                     |        211 |     10,033 |        592 |      2,088 |     12,713 |
+| . (Files)                                                                                             |         16 |        541 |         35 |        126 |        702 |
+| Atlas                                                                                                 |         71 |      3,447 |        187 |        665 |      4,299 |
+| Atlas (Files)                                                                                         |          2 |        144 |         10 |         35 |        189 |
+| Atlas\AI                                                                                              |          1 |         88 |          0 |         17 |        105 |
+| Atlas\Core                                                                                            |         10 |        475 |          8 |         85 |        568 |
+| Atlas\Database                                                                                        |         16 |        380 |          1 |         40 |        421 |
+| Atlas\Database (Files)                                                                                |          8 |        121 |          1 |         14 |        136 |
+| Atlas\Database\Models                                                                                 |          8 |        259 |          0 |         26 |        285 |
+| Atlas\Effects                                                                                         |          4 |        315 |          4 |         80 |        399 |
+| Atlas\Enums                                                                                           |          4 |         19 |          0 |          5 |         24 |
+| Atlas\FiniteStateMachine                                                                              |          4 |         55 |          0 |          6 |         61 |
+| Atlas\Map                                                                                             |          1 |        141 |         14 |         29 |        184 |
+| Atlas\MapEditor                                                                                       |          4 |        349 |         23 |         73 |        445 |
+| Atlas\Player                                                                                          |         17 |        993 |        117 |        234 |      1,344 |
+| Atlas\Player (Files)                                                                                  |         11 |        615 |         99 |        138 |        852 |
+| Atlas\Player\Player Commands                                                                          |          3 |         75 |          1 |         17 |         93 |
+| Atlas\Player\Systems                                                                                  |          3 |        303 |         17 |         79 |        399 |
+| Atlas\Tile                                                                                            |          1 |         97 |          0 |         16 |        113 |
+| Atlas\UI                                                                                              |          2 |         19 |          0 |          0 |         19 |
+| Atlas\Util                                                                                            |          5 |        372 |         10 |         45 |        427 |
+| Combat                                                                                                |         50 |      2,423 |        178 |        510 |      3,111 |
+| Combat (Files)                                                                                        |          6 |        450 |         30 |        103 |        583 |
+| Combat\AI                                                                                             |          1 |         46 |          7 |         10 |         63 |
+| Combat\Actions                                                                                        |          8 |        264 |         45 |         43 |        352 |
+| Combat\BattleCommands                                                                                 |          8 |        188 |          6 |         39 |        233 |
+| Combat\BattleFSM                                                                                      |         14 |        406 |         37 |        108 |        551 |
+| Combat\BattleUIEffectsCommands                                                                        |          3 |         61 |          8 |         14 |         83 |
+| Combat\Battler                                                                                        |         10 |      1,008 |         45 |        193 |      1,246 |
+| DepotModels                                                                                           |         18 |        374 |         10 |         51 |        435 |
+| Grid                                                                                                  |         14 |        384 |        108 |        112 |        604 |
+| Grid (Files)                                                                                          |          4 |         95 |         35 |         27 |        157 |
+| Grid\Floor                                                                                            |          1 |         16 |          0 |          3 |         19 |
+| Grid\Trigger                                                                                          |          9 |        273 |         73 |         82 |        428 |
+| Grid\Trigger (Files)                                                                                  |          8 |        263 |         73 |         79 |        415 |
+| Grid\Trigger\Scriptable                                                                               |          1 |         10 |          0 |          3 |         13 |
+| UI                                                                                                    |         42 |      2,864 |         74 |        624 |      3,562 |
+| UI (Files)                                                                                            |          7 |        274 |          6 |         64 |        344 |
+| UI\Attributes                                                                                         |          3 |        164 |          6 |         36 |        206 |
+| UI\Battle                                                                                             |          3 |        686 |         39 |        154 |        879 |
+| UI\Cooking                                                                                            |          6 |        332 |          7 |         77 |        416 |
+| UI\Dev                                                                                                |          3 |        139 |          3 |         27 |        169 |
+| UI\Dialogue                                                                                           |          3 |        124 |          0 |         28 |        152 |
+| UI\Inventory                                                                                          |          4 |        331 |          2 |         67 |        400 |
+| UI\Shop                                                                                               |          5 |        293 |          1 |         60 |        354 |
+| UI\Spell                                                                                              |          3 |        130 |          1 |         27 |        158 |
+| UI\Spellcraft                                                                                         |          5 |        391 |          9 |         84 |        484 |
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                              | language | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\AI\Pathfinding.cs                                   | C#       |         88 |          0 |         17 |        105 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Core\DatabaseSystem.cs                              | C#       |         45 |          0 |          9 |         54 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Core\Gamemaster.cs                                  | C#       |         50 |          2 |          9 |         61 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Core\IModel.cs                                      | C#       |          6 |          0 |          3 |          9 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Core\IPoolable.cs                                   | C#       |         17 |          0 |          2 |         19 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Core\ISystem.cs                                     | C#       |          8 |          0 |          2 |         10 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Core\PoolSystem.cs                                  | C#       |        129 |          2 |         18 |        149 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Core\ResourcesSystem.cs                             | C#       |         62 |          4 |         15 |         81 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Core\SerializationSystem.cs                         | C#       |         60 |          0 |         12 |         72 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Core\ViewAnimation.cs                               | C#       |         18 |          0 |          3 |         21 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Core\ViewSystem.cs                                  | C#       |         80 |          0 |         12 |         92 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\AttributePrototype.cs                      | C#       |         11 |          0 |          1 |         12 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\BattlePrototype.cs                         | C#       |         11 |          0 |          1 |         12 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\Database.cs                                | C#       |         44 |          1 |          7 |         52 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\EnemyPrototype.cs                          | C#       |         11 |          0 |          1 |         12 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\ItemPrototype.cs                           | C#       |         11 |          0 |          1 |         12 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\LootTablePrototype.cs                      | C#       |         11 |          0 |          1 |         12 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\Models\ActionType.cs                       | C#       |         24 |          0 |          2 |         26 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\Models\Attribute.cs                        | C#       |         23 |          0 |          2 |         25 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\Models\Battle.cs                           | C#       |         11 |          0 |          1 |         12 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\Models\Enemy.cs                            | C#       |         44 |          0 |          5 |         49 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\Models\Item.cs                             | C#       |         65 |          0 |          9 |         74 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\Models\LootTable.cs                        | C#       |         21 |          0 |          3 |         24 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\Models\Progression.cs                      | C#       |         23 |          0 |          1 |         24 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\Models\Spell.cs                            | C#       |         48 |          0 |          3 |         51 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\ProgressionPrototype.cs                    | C#       |         11 |          0 |          1 |         12 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Database\SpellPrototype.cs                          | C#       |         11 |          0 |          1 |         12 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Effects\EffectsSystem.cs                            | C#       |        163 |          3 |         34 |        200 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Effects\IEffect.cs                                  | C#       |         19 |          0 |          5 |         24 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Effects\ParticleEffect.cs                           | C#       |         55 |          1 |         17 |         73 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Effects\SoundEffectSource.cs                        | C#       |         78 |          0 |         24 |        102 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Enums\EAttribute.cs                                 | C#       |          7 |          0 |          0 |          7 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Enums\EAttributeModifierSource.cs                   | C#       |          4 |          0 |          2 |          6 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Enums\EElement.cs                                   | C#       |          4 |          0 |          1 |          5 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Enums\ETarget.cs                                    | C#       |          4 |          0 |          2 |          6 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\FiniteStateMachine\IFiniteStateMachine.cs           | C#       |         15 |          0 |          2 |         17 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\FiniteStateMachine\IFiniteStateMachineAdvanced.cs   | C#       |         16 |          0 |          2 |         18 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\FiniteStateMachine\IState.cs                        | C#       |         12 |          0 |          1 |         13 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\FiniteStateMachine\IStateAdvanced.cs                | C#       |         12 |          0 |          1 |         13 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\MapEditor\FloorMaker.cs                             | C#       |         22 |          0 |          4 |         26 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\MapEditor\MapAnchor.cs                              | C#       |         17 |          0 |          3 |         20 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\MapEditor\MapDefinition.cs                          | C#       |        225 |         17 |         49 |        291 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\MapEditor\MeshMergingTool.cs                        | C#       |         85 |          6 |         17 |        108 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\MapSerializeSystem.cs                               | C#       |        113 |          9 |         28 |        150 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Map\MapSystem.cs                                    | C#       |        141 |         14 |         29 |        184 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\BattlePlayerState.cs                         | C#       |         22 |          0 |          5 |         27 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\CameraSystem.cs                              | C#       |         69 |          5 |         11 |         85 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\CookingPlayerState.cs                        | C#       |         27 |          1 |          6 |         34 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\DialoguePlayerState.cs                       | C#       |         29 |          0 |          6 |         35 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\GridController.cs                            | C#       |         12 |         79 |         22 |        113 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\OverworldPlayerState.cs                      | C#       |         44 |          3 |          8 |         55 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\Player Commands\CastSpellCommand.cs          | C#       |         29 |          1 |          8 |         38 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\Player Commands\ConsumeItemCommand.cs        | C#       |         30 |          0 |          5 |         35 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\Player Commands\PlayerCommand.cs             | C#       |         16 |          0 |          4 |         20 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\PlayerFSM.cs                                 | C#       |         49 |          0 |          8 |         57 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\PlayerState.cs                               | C#       |         25 |          0 |          7 |         32 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\PlayerSystem.cs                              | C#       |        282 |         11 |         54 |        347 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\ShopPlayerState.cs                           | C#       |         28 |          0 |          5 |         33 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\SpellcraftingPlayerState.cs                  | C#       |         28 |          0 |          6 |         34 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\Systems\AttributesSystem.cs                  | C#       |        102 |         17 |         29 |        148 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\Systems\InventorySystem.cs                   | C#       |        156 |          0 |         37 |        193 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Player\Systems\SpellSystem.cs                       | C#       |         45 |          0 |         13 |         58 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\StagingSystem.cs                                    | C#       |         31 |          1 |          7 |         39 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Tile\AtlasTile.cs                                   | C#       |         97 |          0 |         16 |        113 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\UI\IPresenter.cs                                    | C#       |          8 |          0 |          0 |          8 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\UI\IView.cs                                         | C#       |         11 |          0 |          0 |         11 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Util\Config.cs                                      | C#       |         92 |          0 |          7 |         99 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Util\Depot.cs                                       | C#       |         62 |          0 |          6 |         68 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Util\DepotTool.cs                                   | C#       |        122 |          0 |         14 |        136 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Util\Singleton.cs                                   | C#       |         59 |          0 |         10 |         69 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Atlas\Util\Utility.cs                                     | C#       |         37 |         10 |          8 |         55 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\CameraController.cs                                       | C#       |         19 |          0 |          3 |         22 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\AI\EnemyMoveDecider.cs                             | C#       |         46 |          7 |         10 |         63 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Actions\Action.cs                                  | C#       |          9 |          0 |          2 |         11 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Actions\ActionFactory.cs                           | C#       |         30 |          0 |          2 |         32 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Actions\ActionSystem.cs                            | C#       |         20 |         38 |          4 |         62 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Actions\AttributeDeacreaseAction.cs                | C#       |         33 |          0 |          4 |         37 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Actions\AttributeIncreaseAction.cs                 | C#       |         39 |          1 |          4 |         44 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Actions\DamageAction.cs                            | C#       |         49 |          2 |         11 |         62 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Actions\HealAction.cs                              | C#       |         32 |          0 |          4 |         36 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Actions\MagicDamageAction.cs                       | C#       |         52 |          4 |         12 |         68 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleCamera.cs                                    | C#       |         18 |          1 |          3 |         22 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleCommands\AttackBattleCommand.cs              | C#       |         30 |          0 |          8 |         38 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleCommands\AttributeChangeCommand.cs           | C#       |         17 |          0 |          2 |         19 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleCommands\AttributeMaxChangeCommand.cs        | C#       |         18 |          1 |          2 |         21 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleCommands\BattleCommand.cs                    | C#       |         22 |          0 |          5 |         27 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleCommands\CastSpellCommand.cs                 | C#       |         39 |          2 |         10 |         51 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleCommands\ConsumeItemCommand.cs               | C#       |         29 |          3 |          6 |         38 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleCommands\FleeBattleCommand.cs                | C#       |         15 |          0 |          3 |         18 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleCommands\HealBattleCommand.cs                | C#       |         18 |          0 |          3 |         21 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleEffectsAnchor.cs                             | C#       |         49 |          0 |          6 |         55 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\BattleFSM.cs                             | C#       |         51 |          0 |          8 |         59 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\BattleState.cs                           | C#       |         24 |          0 |          5 |         29 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\DeathBattleState.cs                      | C#       |         22 |          1 |          9 |         32 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\EndBattleState.cs                        | C#       |         21 |          0 |          8 |         29 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\EnemyTurnBattleState.cs                  | C#       |         35 |         17 |          9 |         61 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\ExecuteCommandsBattleState.cs            | C#       |         32 |          0 |          6 |         38 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\LevelUpBattleState.cs                    | C#       |         22 |          0 |          7 |         29 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\LootBattleState.cs                       | C#       |         28 |          1 |          9 |         38 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\LostBattleState.cs                       | C#       |         20 |          3 |          9 |         32 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\PlayerTurnBattleState.cs                 | C#       |         37 |         13 |          9 |         59 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\StartBattleState.cs                      | C#       |         31 |          0 |          7 |         38 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\TargetBattleState.cs                     | C#       |         18 |          0 |          5 |         23 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\TurnEndBattleState.cs                    | C#       |         31 |          2 |          9 |         42 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleFSM\TurnStartBattleState.cs                  | C#       |         34 |          0 |          8 |         42 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleLog.cs                                       | C#       |         21 |          0 |          4 |         25 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleSystem.cs                                    | C#       |        323 |         29 |         79 |        431 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleUIEffectsCommands\AttackEffectCommand.cs     | C#       |         17 |          3 |          4 |         24 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleUIEffectsCommands\BattleViewEffectCommand.cs | C#       |         22 |          0 |          5 |         27 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\BattleUIEffectsCommands\CastSpellEffectCommand.cs  | C#       |         22 |          5 |          5 |         32 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Battler\AttributesModel.cs                         | C#       |        325 |          9 |         55 |        389 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Battler\Battler.cs                                 | C#       |        156 |          7 |         34 |        197 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Battler\EnemyBattler.cs                            | C#       |         58 |         13 |         17 |         88 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Battler\EquipmentModel.cs                          | C#       |         80 |          0 |         13 |         93 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Battler\Formulas.cs                                | C#       |         11 |          0 |          1 |         12 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Battler\HealthPotionModel.cs                       | C#       |         22 |          0 |          4 |         26 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Battler\InventoryModel.cs                          | C#       |        133 |          2 |         23 |        158 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Battler\LevelModel.cs                              | C#       |         34 |          0 |          6 |         40 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Battler\PlayerBattler.cs                           | C#       |        106 |          8 |         23 |        137 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\Battler\SpellModel.cs                              | C#       |         83 |          6 |         17 |        106 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\LogEntry.cs                                        | C#       |         11 |          0 |          3 |         14 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Combat\TransitionsSystem.cs                               | C#       |         28 |          0 |          8 |         36 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\ComponentsRoot.cs                                         | C#       |         65 |          1 |         11 |         77 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\ConfigSystem.cs                                           | C#       |          6 |          0 |          2 |          8 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\Action.cs                                     | C#       |         12 |          4 |          3 |         19 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\Attribute.cs                                  | C#       |         13 |          0 |          2 |         15 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\Battle.cs                                     | C#       |         12 |          0 |          2 |         14 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\DepotSystem.cs                                | C#       |         49 |          4 |          6 |         59 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\Dialogue.cs                                   | C#       |         20 |          0 |          3 |         23 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\Element.cs                                    | C#       |         11 |          0 |          1 |         12 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\Enemy.cs                                      | C#       |         44 |          0 |          6 |         50 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\EnemyMoves.cs                                 | C#       |         15 |          0 |          2 |         17 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\EquipmentSlot.cs                              | C#       |         11 |          0 |          2 |         13 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\HealthPotion.cs                               | C#       |         12 |          0 |          1 |         13 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\IDepotModel.cs                                | C#       |          3 |          0 |          1 |          4 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\Item.cs                                       | C#       |         33 |          2 |          3 |         38 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\ItemType.cs                                   | C#       |         12 |          0 |          2 |         14 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\LevelProgression.cs                           | C#       |         30 |          0 |          4 |         34 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\LootTable.cs                                  | C#       |         23 |          0 |          3 |         26 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\Shop.cs                                       | C#       |         21 |          0 |          3 |         24 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\Speaker.cs                                    | C#       |         13 |          0 |          2 |         15 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DepotModels\Spell.cs                                      | C#       |         40 |          0 |          5 |         45 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\DevSystem.cs                                              | C#       |         55 |          2 |         13 |         70 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\Floor\FloorSerializableObject.cs                     | C#       |         16 |          0 |          3 |         19 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\GridPawn.cs                                          | C#       |         50 |          0 |         11 |         61 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\GridSystem.cs                                        | C#       |         19 |         35 |         10 |         64 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\IOverworldComponent.cs                               | C#       |          3 |          0 |          2 |          5 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\LookAtCamera.cs                                      | C#       |         23 |          0 |          4 |         27 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\Trigger\BattleTrigger.cs                             | C#       |         29 |          0 |         10 |         39 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\Trigger\ChestTrigger.cs                              | C#       |         44 |          0 |          8 |         52 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\Trigger\CookingTrigger.cs                            | C#       |         27 |         12 |          7 |         46 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\Trigger\DialogueTrigger.cs                           | C#       |         32 |         21 |         13 |         66 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\Trigger\OverworldTrigger.cs                          | C#       |         48 |          0 |         13 |         61 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\Trigger\Scriptable\BattleTriggerPrototype.cs         | C#       |         10 |          0 |          3 |         13 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\Trigger\ShopTrigger.cs                               | C#       |         32 |         25 |         14 |         71 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\Trigger\SpellcraftTrigger.cs                         | C#       |         24 |         15 |          7 |         46 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Grid\Trigger\TeleportTrigger.cs                           | C#       |         27 |          0 |          7 |         34 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\InputReceiver.cs                                          | C#       |          8 |          0 |          4 |         12 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\ItemAddedRow.cs                                           | C#       |         30 |          0 |          8 |         38 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\MainMenuComponents.cs                                     | C#       |         10 |          6 |          2 |         18 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\MapEffect.cs                                              | C#       |         39 |          4 |          8 |         51 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\MapObjectEditor.cs                                        | C#       |         14 |          0 |          2 |         16 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\OverworldEnemyBehaviour.cs                                | C#       |         38 |          1 |          6 |         45 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\ParticleImageEffect.cs                                    | C#       |         57 |          1 |         19 |         77 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\PlayerController.cs                                       | C#       |         44 |          5 |         10 |         59 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Poolable.cs                                               | C#       |         34 |          0 |          7 |         41 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\SaveLoadSystem.cs                                         | C#       |         51 |          7 |         15 |         73 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\Serialize.cs                                              | C#       |         55 |          0 |         10 |         65 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\SpriteRendererAdditional.cs                               | C#       |         16 |          8 |          6 |         30 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Attributes\AttributePresenter.cs                       | C#       |         35 |          0 |          7 |         42 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Attributes\AttributeRow.cs                             | C#       |         53 |          0 |         12 |         65 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Attributes\AttributeView.cs                            | C#       |         76 |          6 |         17 |         99 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Battle\BattlePresenter.cs                              | C#       |        163 |          0 |         40 |        203 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Battle\BattleView.cs                                   | C#       |        481 |         37 |        104 |        622 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Battle\LootRow.cs                                      | C#       |         42 |          2 |         10 |         54 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\ButtonAdditional.cs                                    | C#       |         70 |          3 |         14 |         87 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Cooking\CookingBenefitCell.cs                          | C#       |         25 |          2 |          6 |         33 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Cooking\CookingComponentCell.cs                        | C#       |         34 |          2 |         10 |         46 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Cooking\CookingPresenter.cs                            | C#       |         32 |          0 |          7 |         39 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Cooking\CookingRecipeModel.cs                          | C#       |         59 |          0 |         11 |         70 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Cooking\CookingSystem.cs                               | C#       |        102 |          0 |         29 |        131 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Cooking\CookingView.cs                                 | C#       |         80 |          3 |         14 |         97 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Dev\DevItemRow.cs                                      | C#       |         24 |          1 |          5 |         30 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Dev\DevPresenter.cs                                    | C#       |         37 |          0 |          8 |         45 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Dev\DevView.cs                                         | C#       |         78 |          2 |         14 |         94 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Dialogue\DialoguePresenter.cs                          | C#       |         20 |          0 |          5 |         25 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Dialogue\DialogueSystem.cs                             | C#       |         42 |          0 |          8 |         50 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Dialogue\DialogueView.cs                               | C#       |         62 |          0 |         15 |         77 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\IViewAnimationHandler.cs                               | C#       |          8 |          0 |          1 |          9 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Inventory\EquipmentCell.cs                             | C#       |         91 |          1 |         19 |        111 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Inventory\InventoryCell.cs                             | C#       |         94 |          1 |         21 |        116 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Inventory\InventoryPresenter.cs                        | C#       |         45 |          0 |          9 |         54 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Inventory\InventoryView.cs                             | C#       |        101 |          0 |         18 |        119 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\LevelUpAttributeRow.cs                                 | C#       |         36 |          2 |          6 |         44 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Shop\ShopItemCell.cs                                   | C#       |         40 |          0 |          9 |         49 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Shop\ShopModel.cs                                      | C#       |         70 |          0 |         13 |         83 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Shop\ShopPresenter.cs                                  | C#       |         37 |          0 |          9 |         46 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Shop\ShopSystem.cs                                     | C#       |         64 |          1 |         16 |         81 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Shop\ShopView.cs                                       | C#       |         82 |          0 |         13 |         95 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\SliderAdditional.cs                                    | C#       |         38 |          0 |          9 |         47 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Spell\SpellCell.cs                                     | C#       |         46 |          1 |         10 |         57 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Spell\SpellPresenter.cs                                | C#       |         25 |          0 |          5 |         30 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Spell\SpellView.cs                                     | C#       |         59 |          0 |         12 |         71 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Spellcraft\SpellComponentCell.cs                       | C#       |         46 |          0 |         11 |         57 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Spellcraft\SpellRecipeModel.cs                         | C#       |         54 |          0 |         10 |         64 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Spellcraft\SpellcraftPresenter.cs                      | C#       |         49 |          1 |         12 |         62 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Spellcraft\SpellcraftSystem.cs                         | C#       |        116 |          3 |         25 |        144 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\Spellcraft\SpellcraftView.cs                           | C#       |        126 |          5 |         26 |        157 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\TransitionsPresenter.cs                                | C#       |         23 |          0 |          5 |         28 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\TransitionsView.cs                                     | C#       |         55 |          1 |         18 |         74 |
+| e:\UnityProjects\MouseQuest\Assets\_Scripts\UI\UILabel.cs                                             | C#       |         44 |          0 |         11 |         55 |
+| Total                                                                                                 |          |     10,033 |        592 |      2,088 |     12,713 |
++-------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ad0e31096a30f468cc74bb36206caa, type: 3}
+  m_Name: SviatovidWater
+  m_EditorClassIdentifier: 
+  data:
+    icon: {fileID: 21300000, guid: 6f543a78b7d13f14f887cd70af770de3, type: 3}
+    id: 0
+    name: SviatovidWater
+    transformed: 1
+    reward: 300
+    points: 265
+    attackEffect: {fileID: 2394142420359396175, guid: 54fb8c82e2efee04da4f308e633836c6,
+      type: 3}
+    attackElement: 5
+    formula:
+      expression: a.magicattack * 2 - b.magicdefence
+    battleBackScene: Shrine
+    battlerScale: {x: 0.7, y: 0.7}
+    startingAttributeValues:
+    - attribute: 0
+      value: 150
+    - attribute: 1
+      value: 5
+    - attribute: 2
+      value: 5
+    - attribute: 3
+      value: 30
+    - attribute: 4
+      value: 30
+    - attribute: 5
+      value: 40
+    - attribute: 6
+      value: 5
+    startingResistanceValues:
+    - element: 0
+      value: 0
+    - element: 1
+      value: 0
+    - element: 2
+      value: 0
+    - element: 3
+      value: 0
+    - element: 4
+      value: 0
+    - element: 5
+      value: 100
+    - element: 6
+      value: -100
+    sequences: []
+    loot: []
+    moves:
+    - enabled: 1
+      moveId: 0
+      priority: 1
+      weightGain: 1
+      spell: {fileID: 0}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []
+    - enabled: 1
+      moveId: 1
+      priority: 3
+      weightGain: 2
+      spell: {fileID: 11400000, guid: 92977faa8a28c3e47b66bee7a22a162b, type: 2}
+      enemies: []
+      clearStatuses: 0
+      transferHp: 0
+      turnCondition:
+        enable: 0
+        after: 0
+        turn: 0
+      attributeConditions: []
+      stateConditions: []

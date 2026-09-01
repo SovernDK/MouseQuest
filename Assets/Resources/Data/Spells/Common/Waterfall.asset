@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0274807537af245b8846f7f31e833f, type: 3}
+  m_Name: Waterfall
+  m_EditorClassIdentifier: 
+  spell:
+    icon: {fileID: -1804836761, guid: 56642d44a49406b45a79489022924a32, type: 3}
+    name: spell_waterfall
+    description: spell_waterfall_desc
+    hitChance: 99
+    castType: 1
+    playerCharacter: {fileID: 0}
+    onlyEnemy: 0
+    element: 0
+    target: 2
+    maxPrepared: 3
+    targetEffect: {fileID: 2394142420359396175, guid: 54fb8c82e2efee04da4f308e633836c6,
+      type: 3}
+    targetSfxEffect: {fileID: 8300000, guid: 11f4a03cd564741deadc62b0fcbdd6f1, type: 3}
+    effectPositionOffset: {x: 0, y: 0, z: 0}
+    notes: 
+    actions:
+    - actionType: 1
+      target: 2
+      element: 5
+      userElement: 0
+      formula:
+        expression: a.magicattack - b.magicdefence
+      attribute: 0
+      state: {fileID: 0}
+      allStates: 0
+      source: spell_spell_waterfall
+      repeat: {x: 1, y: 3}
+      turnLimit: 0
+      turnLimitCount: 0
+    - actionType: 4
+      target: 2
+      element: 0
+      userElement: 0
+      formula:
+        expression: -15
+      attribute: 5
+      state: {fileID: 0}
+      allStates: 0
+      source: spell_spell_waterfall
+      repeat: {x: 1, y: 1}
+      turnLimit: 1
+      turnLimitCount: 3
+    - actionType: 7
+      target: 2
+      element: 4
+      userElement: 0
+      formula:
+        expression: 50
+      attribute: 0
+      state: {fileID: 0}
+      allStates: 0
+      source: spell_spell_waterfall
+      repeat: {x: 1, y: 1}
+      turnLimit: 1
+      turnLimitCount: 2
